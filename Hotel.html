@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+
+<h1>Hotel Room Service</h1>
+
+<h2>Welcome to our hotel!  We hope you enjoy your stay.</h2>
+<p>We value you as our guest!  Use this online form to have a hot, delicious breakfast delivered to your room.  Please fill out this form before midnight so that we can make proper accomodations.  All meals are served before 2PM.  Tipping is encouraged.</p>
+
+<form method="post" action="mailto:kristen.bubenik@ttu.edu?subject=Hotel Room Service" enctype="text/plain">
+    
+    <table border="0" width="800">
+    
+    <tbody>
+    <tr>
+        <td>
+ <fieldset>
+  <legend>Hotel Guest Contact Info</legend>
+  First Name: <input type="text" name="First Name">
+     <br>
+     <br>
+  Last Name: <input type="text" name="Last Name">
+     <br>
+     <br>
+  Phone Number: <input type="text" maxlength="10" name="Phone Number">
+     <br>
+     <br>
+  Room Number: <input type="text" name="Room Number">
+     <br>
+     <br>
+  Credit Card Number: <input type="text" maxlength="16" name="Credit Card Number">
+     <br>
+     <br>
+ </fieldset>
+<br>
+<br>
+
+    <p>What time would you like to be served?</p>
+<select name="Time to be served">
+  <option value="6AM" name="6AM">6AM</option>
+  <option value="7AM" name="7AM">7AM</option>
+  <option value="8AM" name="8AM">8AM</option>
+  <option value="9AM" name="9AM">9AM</option>
+  <option value="10AM" name="10AM">10AM</option>
+  <option value="11AM" name="11AM">11AM</option>
+  <option value="12PM" name="12PM">12PM</option>
+  <option value="1PM" name="1PM">1PM</option>
+  <option value="2PM" name="2PM">2PM</option>
+</select>
+
+<p>Please choose your entree:</p>
+
+<select size="5" name="Entree">
+    <option value="Waffles and Chicken">Waffles and Chicken</option>
+    <option value="Pancakes and Syrup">Pancakes and Syrup</option>
+    <option value="Hash Browns">Hash Browns</option>
+    <option value="Bacon and Eggs">Bacon and Eggs</option>
+    <option value="Boring 'ol Toast">Boring 'ol Toast</option>
+    <option value="Biscuits and Gravy">Biscuits and Gravy</option>
+</select>
+    
+<p>Please choose your drink:</p>
+
+<select size="5" name="Drink">
+    <option value="Coffee">Coffee</option>
+    <option value="Apple Juice">Apple Juice</option>
+    <option value="Orange Juice">Orange Juice</option>
+    <option value="Cranberry Juice">Cranberry Juice</option>
+    <option value="Milk">Milk</option>
+    <option value="Water">Water</option>
+</select>
+
+
+
+<p>Would you like extra butter?</p>
+
+<input type="checkbox" name="Extra Butter" value="Yes">Yes>
+<input type="checkbox" name="Extra Butter" value="No">No>
+<input type="checkbox" name="Extra Butter" value="surpriseme">Surprise me>
+
+<br>
+<br>
+
+<input type="reset" value="Reset">
+<input type="submit" value="Submit">
+        
+       
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    </form>
+        
+    </body>
+</html>
+    
